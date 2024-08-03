@@ -7,10 +7,16 @@
     <title>PHP Dasar</title>
 </head>
 <body>
-    <!-- Variabel $_GET -->
-    <h2>Predefine Variabel</h2>
+    <h2>Kondisi IF</h2>
 <?php
-    echo 'Selamat Datang ' . $_GET['nama'];
+    $nama_hari = date("l");
+        if ($nama_hari == "Sunday") {
+            echo "Minggu";
+        } elseif ($nama_hari == "Monday") {
+            echo "Senin";
+        } else {
+            echo "Selasa";
+        }
 ?>
 </body>
 </html>

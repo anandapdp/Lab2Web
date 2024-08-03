@@ -7,10 +7,12 @@
     <title>PHP Dasar</title>
 </head>
 <body>
-    <!-- Variabel $_GET -->
-    <h2>Predefine Variabel</h2>
 <?php
-    echo 'Selamat Datang ' . $_GET['nama'];
+    $gaji = 1000000;
+    $pajak = 0.1;
+    $thp = $gaji - ($gaji*$pajak);
+        echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        echo "Gaji yang dibawa pulang = Rp. $thp";
 ?>
 </body>
 </html>
