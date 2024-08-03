@@ -56,7 +56,7 @@ Untuk dapat mendapatkan tampilan seperti gambar diatas, buatlah file baru dengan
 
 ## VARIABLE PHP
 
-![menambahkan_gambar](img/VARIABLE%20PHP.png)
+![menambahkan_gambar](img/1dasar.png)
 
 Untuk mendapatkan tampilan seperti diatas kalian bisa menambahkan kode berikut:
 
